@@ -110,3 +110,13 @@ resource "aws_eip" "static_eip" {
     }
   )
 }
+
+
+resource "aws_ecr_repository" "New_App" {
+  name = "New_App"
+}
+
+
+resource "aws_ecr_repository" "New_database" {
+  name = "New_database"
+}
