@@ -1,0 +1,10 @@
+
+dev/instances/*.tfstate
+dev/instances/*.tfstate.backup
+dev/instances/*.tfplan
+dev/instances/.terraform/
+
+dev/instances/.terraform.lock.hcl
+
+dev/instances/week4
+dev/instances/*.pub
